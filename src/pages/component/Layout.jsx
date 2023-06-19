@@ -1,5 +1,6 @@
 import Provider from "../Provider";
 import Header from "./Header";
+import Navbar from "./Navbar";
 
 export default function Layout({ children }) {
   return (
@@ -9,6 +10,7 @@ export default function Layout({ children }) {
           {/* header */}
           <Header />
           {/* Navbar */}
+          <Navbar />
           {/* searchBox */}
           {children}
         </Provider>
