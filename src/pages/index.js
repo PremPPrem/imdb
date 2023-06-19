@@ -3,7 +3,7 @@
 export default function Home() {
   return (
    <>
-   <h1>hello</h1>
+   <h1 className='text-red-500'>hello</h1>
    </>
   )
 }
